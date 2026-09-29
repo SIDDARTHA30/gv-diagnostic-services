@@ -20,7 +20,7 @@ export const site = {
 // Temporary medical/laboratory placeholders. Replace each value with a licensed local file in public/images/.
 export const images = {
   // Replace public/images/gv-logo.png with your custom logo file.
-  logo: '/images/gv-logo.png',
+  logo: `${import.meta.env.BASE_URL}images/gv-logo.png`,
   hero: 'https://images.unsplash.com/photo-1579154204601-01588f351e67?auto=format&fit=crop&w=1200&q=85',
   laboratory: 'https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1000&q=85',
   scientist: 'https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=1000&q=85',
